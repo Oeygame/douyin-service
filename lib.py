@@ -76,7 +76,7 @@ def api_service(route, token="", method="get", data=None, content_type="applicat
     resp = requests.request(method=method, url="{0}/{1}".format(API_EP_DOUYIN, route), data=data,
                             headers={"Content-Type": content_type, "token": token}, verify=False)
 
-    print(resp.content)
+    # print(resp.content)
     if token != "" and resp.headers.get("x-token") != token:
         raise Exception(resp.headers.get("x-token"))
     elif resp.headers.get("x-token-times") == "0":
