@@ -11,3 +11,5 @@ run/
 *.sw*
 *.un~
 price.md
+__pycache__/config.cpython-37.pyc
+__pycache__/lib.cpython-37.pyc
