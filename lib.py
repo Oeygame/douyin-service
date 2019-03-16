@@ -1,9 +1,6 @@
 #!/usr/bin/env python3
 # encoding: utf-8
-import base64
-import gzip
 import json
-import random
 from time import time
 from urllib.parse import unquote_plus
 

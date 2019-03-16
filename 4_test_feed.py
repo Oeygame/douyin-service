@@ -1,7 +1,5 @@
-from time import time
-
 from config import API_TOKEN
-from lib import sign, wrap_api
+from lib import wrap_api
 
 
 if __name__ == '__main__':

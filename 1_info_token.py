@@ -1,4 +1,4 @@
-from config import ROUTE_GEN_TOKEN, ROUTE_INFO_TOKEN
+from config import ROUTE_INFO_TOKEN
 from lib import api_service
 
 
