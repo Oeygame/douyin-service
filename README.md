@@ -32,6 +32,7 @@ curl -X "POST" "https://sign.vsdouyin.com/api/653d33c/sign/b7f5a12b0dfa11f6c1046
 
 ## 第四步
 + http请求签名后的链接
+请求头必须携带User-Agent: okhttp/3.8.2和cookie：install_id=`设备算法生成的install_id`
 ```bash
 curl -k -H 'User-Agent: okhttp/3.8.2' \
      -H 'Cookie:install_id=50416179430' \
