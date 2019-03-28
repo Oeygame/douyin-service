@@ -39,7 +39,7 @@ def get_new_device_info(token):
             'sdk-version': '1',
             'user-agent': 'okhttp/3.10.0.1',
         }
-        resp = requests.post("https://log.snssdk.com/service/2/device_register/", params=params, headers=headers,
+        resp = requests.post("http://log.snssdk.com/service/2/device_register/", params=params, headers=headers,
                              data=data)
         content = resp.content.decode("utf-8")
         new_device = json.loads(content)

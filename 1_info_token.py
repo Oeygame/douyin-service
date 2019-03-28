@@ -13,4 +13,4 @@ def get_token_info(token):
 
 
 if __name__ == '__main__':
-    print(get_token_info("08338ef0b578ef208dfacbce2a9db2e0"))
+    print(get_token_info("4427da919c165134bb2ae327786b94e6"))
