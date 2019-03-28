@@ -31,5 +31,12 @@ curl -X "POST" "https://sign.vsdouyin.com/api/653d33c/sign/b7f5a12b0dfa11f6c1046
 + http请求返回的header里面的times为token剩余的次数
 
 ## 第四步
++ http请求签名后的链接
+请求头必须携带User-Agent: okhttp/3.8.2和cookie：install_id=`设备算法生成的install_id`
+```bash
+curl -k -H 'User-Agent: okhttp/3.8.2' \
+     -H 'Cookie:install_id=50416179430' \
+     'https://aweme.snssdk.com/aweme/v1/feed/?app_type=normal&manifest_version_code=290&_rticket=1550930244608&ac=wifi&device_id=66294943700&iid=64323608375&os_version=9&channel=wandoujia_zhiwei&version_code=290&device_type=ONEPLUS%20A6010&language=zh&uuid=869386044722596&resolution=1080*2261&openudid=89ca1c64a055844d&update_version_code=2902&app_name=aweme&version_name=2.9.0&os_api=28&device_brand=OnePlus&ssmix=a&device_platform=android&dpi=420&aid=1128&count=6&type=0&max_cursor=0&min_cursor=-1&pull_type=2&ts=1552901499&as=a1e576084b979c95df4355&cp=6a7cce50bef18e5de1KkSo&mas=0199ee9c1569bedff78dfe8012939de97eacaccc2c6626ac9cc69c' -H 'Connection: keep-alive' 
+```
 + 使用其他python文件测试具体功能
 
