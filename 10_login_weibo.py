@@ -64,10 +64,10 @@ def weibo_login(device_info, access_token, uid):
 
 
 if __name__ == '__main__':
-    device_info = {'device_id': "66762742687",
-                   'install_id': "66088143957",
-                   'openudid': '3275465180871399',
-                   'uuid': '187604370269819'}
+    device_info = {'device_id': "66954874663,",
+                   'install_id': "67439526519",
+                   'openudid': '0952463183701895',
+                   'uuid': '980576262409148'}
 
     # 获取首页feed
     weibo_login(device_info, "2.00tqDDPHGahxaB1c41db103aUXCJuD", "6635304659")
