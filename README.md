@@ -15,12 +15,6 @@
 ```bash
 curl "https://sign.vsdouyin.com/api/token/info/b7f5a12b0dfa11f6c1046a2abe65eb94"
 ```
-+ 增加token的可用次数：
-    + 第一步：前往[510发卡平台](http://t.cn/Eiw7uoy)购买充值卡
-        + [添加5千次](http://t.cn/EiwZJ4N)
-        + [添加3万次](http://t.cn/EiwUAAj )
-        + [添加10万次](http://t.cn/EiwUM42 )
-    + 第二步：使用[充值页面](http://sign.vsdouyin.com/api/card/bind)增加token的可用次数
 
 ### 第二步
 + 使用命令`python3 2_gen_device.py` 生成设备值
