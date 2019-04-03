@@ -2,7 +2,7 @@
 
 >最新算法基于抖音19年初的android 2.9.0~3.9.0版本，请使用豌豆荚下载指定版本
 
-> 任何疑问请发邮件到：[vsdouyin@yandex.com](vsdouyin@yandex.com)
+> 任何疑问请发邮件到：[hellotomi@yandex.com](vsdouyin@yandex.com)
 
 ### 第一步
 创建一个私有的授权token，用于以后的所有操作
